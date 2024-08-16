@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+        <img src="./img/logoA.png" alt="Logo Alura Latam" class="logo">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="izquierda">
+                <textarea id="ingresoTexto" class="ingresa_texto" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+                <div class="contenedor_izquierda">
+                    <img src="./img/Group.png" alt="">
+                    <spam class="info_l">Solo letras minusculas y sin acentos</spam>
+                    <div class="botones">    
+                        <button id="btnEncriptar" class="btn_encriptar">Encriptador</button>
+                        <button id="btnDesencriptar" class="btn_desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="derecha" class="derecha">
+                <img id="muñeco" class="Muñeco" src="./img/Muñeco.png" alt="Muñeco">
+                <textarea id="mensajeFinal" class="mensajeFinal" placeholder="Ningun mensaje fue encontrado"></textarea>
+                <p id="informacion" class="info">Ingresar el texto que desees
+                encriptar o desencriptar.</p>
+                <button id="btnCopiar" class="btn_copiar oculto">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <div>
+        <video muted autoplay loop>
+            <source src="video/7832341-hd_1080_1920_25fps.mp4" type="video/mp4">
+        </video>
+    </div>
+    <footer></footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
